@@ -1,0 +1,8 @@
+version: '2'
+services:
+  distcc-server:
+    image: msis/docker-distcc-rpi-gcc4.9
+    ports:
+      - "3632:3632"
+    volumes:
+      - ./etc/default/distcc:/etc/default/distcc
