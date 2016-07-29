@@ -15,4 +15,4 @@ ENTRYPOINT ["distccd"]
 CMD ["--no-detach", \
      "--daemon", \
      "--log-stderr", \
-     "--allow", "0.0.0.0"]
+     "--allow", "1.0.0.0/0"]
